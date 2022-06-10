@@ -1,0 +1,30 @@
+.BarraLateral{
+    top: 0px;
+    position: fixed;
+    min-height: 100vh;
+    width: 260px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 1px 1.2px rgb(189, 189, 189);
+    padding-top: 50px;
+    transform: translateX(-110%);
+    transition: 0.5s;
+    z-index: 100;
+}
+.BarraLateral ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: rgb(202, 202, 202);
+    transition: 0.3s;
+}
+.BarraLateral ul li:hover{
+    background-color: rgb(202, 202, 202);
+    color:#FFFFFF;
+    cursor: pointer;
+
+}
+.BarraLateral ul li:active{
+    transform: scale(90%);
+}
