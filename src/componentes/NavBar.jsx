@@ -42,7 +42,6 @@ const NavBar = () => {
         </Routes>
     <div className="BarraNavegacion">
         <div className="BarraNavegacion_icono">
-            <img src={logo} alt="logoinicio" />
         </div>
         <div className='Contenedor_botones'>
           <ul>
